@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+    <nav></nav>
+    <section class="allElems">
+      <section class="elem todo" id="0">
+        <img src="./images/pexels-davidortega-2767614.jpg" alt="" />
+        <h2>Todo List</h2>
+      </section>
+      <section class="elem planner" id="1">
+        <img src="./images/pexels-lilartsy-1925537.jpg" alt="" />
+        <h2>Daily Planner</h2>
+      </section>
+      <section class="elem motivation" id="2">
+        <img src="./images/pexels-eva-bronzini-7505466.jpg" alt="" />
+        <h2>Motivaltion</h2>
+      </section>
+      <section class="elem pomodoro" id="3">
+        <img src="./images/pexels-ron-lach-7954883.jpg" alt="" />
+        <h2>Pomodoro Timer</h2>
+      </section>
+      <section class="elem goals" id="4">
+        <img src="./images/pexels-vlado-paunovic-1567547-3112019.jpg" alt="" />
+        <h2>Daily Goals</h2>
+      </section>
+    </section>
+
+    <section class="pages">
+      <section class="page todo-page-container">
+        <h2>Your Personalized Task List</h2>
+        <button class="close-btn" id="0">Close</button>
+        <div class="todo-page">
+          <div class="todo-form">
+            <form>
+              <input type="text" placeholder="Enter the task name" />
+              <textarea
+                cols="50"
+                rows="20"
+                name=""
+                id=""
+                placeholder="Enter Description"
+              ></textarea>
+              <button>Add Task</button>
+            </form>
+          </div>
+          <div class="todo-tasks">
+            <div class="todo-card">
+              <h4>Code 1 hour</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quae maiores fuga voluptatibus sit omnis vel,
+                eligendi distinctio? Aperiam aliquam mollitia quam, ab delectus
+                doloribus.
+              </p>
+
+              <div class="card-footer">
+                <button class="imp-btn">Completed</button>
+                <button class="delete-btn"><i class="ri-delete-bin-6-line"></i></button>
+              </div>
+            </div>
+            <div class="todo-card">
+              <h4>Code 1 hour</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quae maiores fuga voluptatibus sit omnis vel,
+                eligendi distinctio? Aperiam aliquam mollitia quam, ab delectus
+                doloribus.
+              </p>
+
+              <div class="card-footer">
+                <button class="imp-btn">Completed</button>
+                <button class="delete-btn"><i class="ri-delete-bin-6-line"></i></button>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <section class="page daily-planner-container">
+        <h2>Daily Planner</h2>
+        <button class="close-btn" id="1">Close</button>
+      </section>
+      <section class="page motivation-container">
+        <h2>Motivaltion</h2>
+        <button class="close-btn" id="2">Close</button>
+      </section>
+      <section class="page pomodoro-container">
+        <h2>Pomodoro Timer</h2>
+        <button class="close-btn" id="3">Close</button>
+      </section>
+      <section class="page daily-goals-container">
+        <h2>Daily Goals</h2>
+        <button class="close-btn" id="4">Close</button>
+      </section>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
