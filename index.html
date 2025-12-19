@@ -6,9 +6,9 @@
     <title>Productivity Dashboard</title>
     <link rel="stylesheet" href="style.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav></nav>
@@ -42,47 +42,28 @@
         <div class="todo-page">
           <div class="todo-form">
             <form>
-              <input type="text" placeholder="Enter the task name" />
+              <input
+                type="text"
+                class="todo-input"
+                placeholder="Enter the task name"
+              />
               <textarea
                 cols="50"
                 rows="20"
                 name=""
                 id=""
                 placeholder="Enter Description"
+                class="todo-description"
               ></textarea>
-              <button>Add Task</button>
+              <div class="mark-important">
+                <input type="checkbox" name="" id="important" />
+                <label for="important">Mark as Important</label>
+              </div>
+              <button type="submit">Add Task</button>
             </form>
           </div>
           <div class="todo-tasks">
-            <div class="todo-card">
-              <h4>Code 1 hour</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores quae maiores fuga voluptatibus sit omnis vel,
-                eligendi distinctio? Aperiam aliquam mollitia quam, ab delectus
-                doloribus.
-              </p>
-
-              <div class="card-footer">
-                <button class="imp-btn">Completed</button>
-                <button class="delete-btn"><i class="ri-delete-bin-6-line"></i></button>
-              </div>
-            </div>
-            <div class="todo-card">
-              <h4>Code 1 hour</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores quae maiores fuga voluptatibus sit omnis vel,
-                eligendi distinctio? Aperiam aliquam mollitia quam, ab delectus
-                doloribus.
-              </p>
-
-              <div class="card-footer">
-                <button class="imp-btn">Completed</button>
-                <button class="delete-btn"><i class="ri-delete-bin-6-line"></i></button>
-              </div>
-            </div>
-           
+            <!-- Card will Render here from js -->
           </div>
         </div>
       </section>
